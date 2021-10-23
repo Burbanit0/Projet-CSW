@@ -1,4 +1,6 @@
 import assert from "assert";
+import '/imports/api/tasksMethods.tests.js';
+import '/imports/api/tasks.tests.js';
 
 describe("Projet-CSW", function () {
   it("package.json has correct name", async function () {
