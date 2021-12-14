@@ -22,3 +22,5 @@ react-meteor-data       # React higher-order component for reactively tracking M
 accounts-password
 meteortesting:mocha
 quave:testing
+cfs:standard-packages
+cfs:filesystem
