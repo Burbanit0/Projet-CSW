@@ -1,0 +1,24 @@
+Explication de mes choix technologiques 
+
+J'avais déjà réaliser une application fullstack MERN (Mongo Express React Node)
+Donc je connaissais déjà le modèle et l'organisation du code. 
+
+J'ai repris mes connaissances en Mongo et React acquisent pendant mon temps personnel et durant les cours de NoSQL. 
+
+MongoDB n'est pas la BDD la plus adaptée au stockage d'images. 
+Pour stocker les images, il faut donc en changer le format et passer par du Base64, cela
+permet le stockage en binaire. 
+
+Pour la partie serveur, j'ai fait le choix de NodeJS. Ce choix se justifie par une bonne connaissance
+de Javascript et une bonne compatibilité avec la base de donnée MongoDb ainsi que le framework ReactJS
+
+Lors de mon stage, j'ai pu manipuler le framework React en Typescript, ce n'est pas très différent du Javascript
+sa mise en place a donc été simplifié. 
+
+Pour permettre de changer la photo du diaporama j'ai utilisé Socket.IO 
+Avec les sockets, il est possible de partager l'indice de la photo vue aux différents utilisateurs. 
+
+Pour ce qui est de l'organisation du front, j'ai mis 3 pages différentes:
+    1 - Page d'Upload pour ajouter des images à la base de données avec une description
+    2 - Page d'affichage des images avec un Carousel où sont affichés les différentes images
+    3 - Page de recherche des images (la fonctionnalité de recherche n'est pas valide)
